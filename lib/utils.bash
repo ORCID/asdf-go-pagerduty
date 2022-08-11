@@ -4,7 +4,7 @@ set -euo pipefail
 
 GH_REPO="https://github.com/ORCID/go-pagerduty"
 TOOL_NAME="go-pagerduty"
-TOOL_TEST="go-pagerduty --version"
+TOOL_TEST="go-pagerduty --help"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"
